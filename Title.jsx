@@ -5,11 +5,11 @@ const StyledTitle = styled.h1`
 color: white
 `
 
-const Title = () => {
+const Title = ({ children }) => {
     return (
-        <div>
-            Hi
-        </div>
+        <StyledTitle>
+            {children}
+        </StyledTitle>
     )
 }
 
